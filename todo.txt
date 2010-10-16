@@ -1,0 +1,26 @@
+Monopoly Simulation v1.0 - TODO
+
+# [ ] - not started
+# [X] - completed
+# [>] - less than 50% complete
+# [<] - more than 50% complete, but not done
+# [?] - up for discussion (as in "a possible thing to do?")
+# [.] - continuing discussion
+# [&] - discarded. usually has a note to see some other todo item
+
+[&] - figure out why the displayProperties method won't display the property
+      name from the properties vector of the Player class.
+[x] - storage of objects in pointer arrays
+
+[>] - write a function for game simulation.
+[x] - fix the player position and moving players on the board
+		- put a pointer to Space in Player class to determine current location
+	  
+[ ] - write more winning conditions to end the game
+[ ] - write chance executions
+[ ] - add in property rent and update houses for properties
+[ ] - write functions for output of game status
+[ ] - add/fix anything in Space class, possibly more get methods
+
+[x] - get rollDice() to output more random numbers (seeding issue, seconds
+	  or milliseconds weren't good enough)
